@@ -1,40 +1,40 @@
 package KT;
 public class Computer {
-    private int ID;
-    private String Manufacturer;
-    private int Year;
-    private double Price;
-    public int getID() {
-        return ID;
+    private int id;
+    private String manufacturer;
+    private int year;
+    private double price;
+    public Computer(int id, String manufacturer, int year, double price) {
+        this.id = id;
+        this.manufacturer = manufacturer;
+        this.year = year;
+        this.price = price;
     }
-    public String getManufacturer() {
-        return Manufacturer;
-    }
-    public int getYear() {
-        return Year;
-    }
-    public double getPrice() {
-        return Price;
-    }
-    public void setID(int iD) {
-        ID = iD;
+    public void setId(int id) {
+        this.id = id;
     }
     public void setManufacturer(String manufacturer) {
-        Manufacturer = manufacturer;
+        this.manufacturer = manufacturer;
     }
     public void setYear(int year) {
-        Year = year;
+        this.year = year;
     }
     public void setPrice(double price) {
-        Price = price;
+        this.price = price;
     }
-    public Computer(int iD, String manufacturer, int year, double price) {
-        ID = iD;
-        Manufacturer = manufacturer;
-        Year = year;
-        Price = price;
+    public int getId() {
+        return id;
     }
-    public void DisplayInfo(){
-        System.out.println("Thông tin của máy tính là: " + "\nID:" + this.ID + "\nManufacturer:" + this.Manufacturer + "\nYear:" + this.Year + "\nPrice:" + this.Price + "\n---------------------------------------------------------");
+    public String getManufacturer() {
+        return manufacturer;
+    }
+    public int getYear() {
+        return year;
+    }
+    public double getPrice() {
+        return price;
+    }
+    public void displayInfo(){
+        System.out.println("Thông tin của máy tính là: " + "\nID:" + this.id + "\nManufacturer:" + this.manufacturer + "\nYear:" + this.year + "\nPrice:" + this.price + "\n---------------------------------------------------------");
     }
 }
