@@ -18,9 +18,9 @@ public class Main {
             Computer computer = new Computer(id, manufacturer, year, price);
             computerList.add(computer);
             System.out.println("Thông tin của máy tính Mới là: " + "\nID:" + id + "\nManufacturer:" + manufacturer + "\nYear:" + year + "\nPrice:" + price + "\n---------------------------------------------------------");
-            for(Computer computer1 : computerList){
-                computer1.DisplayInfo();
-            }
+        }
+        for(Computer computer1 : computerList){
+            computer1.DisplayInfo();
         }
     }
 }
