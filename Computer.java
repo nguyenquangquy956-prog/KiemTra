@@ -35,6 +35,6 @@ public class Computer {
         Price = price;
     }
     public void DisplayInfo(){
-        System.out.println("Thông tin của máy tính là: " + "\nID:" + this.ID + "\nManufacturer:" + this.Manufacturer + "\nYear:" + this.Year + "\nPrice:" + this.Price);
+        System.out.println("Thông tin của máy tính là: " + "\nID:" + this.ID + "\nManufacturer:" + this.Manufacturer + "\nYear:" + this.Year + "\nPrice:" + this.Price + "\n---------------------------------------------------------");
     }
 }
